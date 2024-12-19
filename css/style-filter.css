@@ -1,0 +1,121 @@
+/* variables */
+/*  other styles */
+*, *:before, *:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+
+
+/* custom styles for UiSlider */
+/*
+.noUi-target {
+  cursor: pointer;
+}
+.noUi-target :focus {
+  outline: none;
+}
+*/
+
+.noUi-horizontal {
+  height: 9px;
+}
+
+.noUi-connect {
+  background: #F5751E;
+}
+
+.noUi-base {
+  background: #DEDEDE;
+}
+
+.noUi-horizontal .noUi-handle {
+  top: -6px;
+  right: -15px;
+  width: 22px;
+  height: 22px;
+  background: #F5751E;
+  /* border: 2px solid #711fab; */
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px 1px #f5751e;
+  cursor: pointer;
+  transition: transform 0.1s;
+}
+/*
+.noUi-horizontal .noUi-handle:before, .noUi-horizontal .noUi-handle:after {
+  content: none;
+}
+.noUi-horizontal .noUi-handle:hover {
+  transform: scale(1.1);
+}
+*/
+
+/* styles for filter */
+.filter {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 370px;
+  float: left;
+  width: 100%;
+/*
+  border-radius: 10px;
+  background: white;
+  box-shadow: 0px 0px 50px 4px rgba(0, 0, 0, 0.75);
+*/
+  padding: 20px 10px 20px 0;
+}
+
+.filter h2 {
+  font-size: 20px;
+}
+
+.filter p {
+  padding: 5px;
+}
+
+/*
+.filter__label {
+  position: relative;
+  cursor: pointer;
+}
+*/
+/*
+.filter__label:before {
+  position: absolute;
+  left: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #999999;
+  font-size: 14px;
+}
+*/
+/*
+.filter__label:nth-child(1):before {
+  content: "from";
+}
+.filter__label:nth-child(2):before {
+  content: "to";
+}
+*/
+
+.filter__input {
+  height: 35px;
+  border: 2px solid #000000;
+  /* border-radius: 5px; */
+  padding: 0 10px 0 10px;
+  cursor: pointer;
+  max-width: 60px;
+}
+/*
+.filter__input:focus {
+  background: rgba(155, 38, 175, 0.2);
+}
+*/
+
+.filter__slider-price {
+  width: 100%;
+  margin: 20px 0px 20px;
+}

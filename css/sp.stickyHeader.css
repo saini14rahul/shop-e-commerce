@@ -1,0 +1,25 @@
+.sp-sticky{
+  width: 100%;
+  height: auto;
+  display: block;
+  position: fixed;
+  z-index: 99;
+  left: 0;
+  top: 0;
+  transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+.sp-sticky-child{
+  transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+.sp-sticky.sp-active{
+  box-shadow: 0 2px 4px 0px rgba(0, 0, 0, .4);
+}
+
+.logo{ display: none; color: yellow; float: left; }
+.sp-active .logo{ display: block; }
